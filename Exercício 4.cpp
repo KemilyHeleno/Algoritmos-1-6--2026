@@ -1,6 +1,6 @@
-/* ExercÌcio 4*/
+/* Exerc√≠cio 4*/
 /* Dia 17/08/2026*/
-/* FaÁa um programa que leia a idade de uma pessoa e informe: "Maior de idade" se tiver 18 anos ou mais; "Menor de idade" caso contr·rio. */
+/* Fa√ßa um programa que leia a idade de uma pessoa e informe: "Maior de idade" se tiver 18 anos ou mais; "Menor de idade" caso contr√°rio. */
 
 #include<iostream>
 using namespace std;
@@ -10,7 +10,7 @@ int main(){
 	cout << "Digite a sua idade ";
 	cin >> idade;
 	
-	if (idade <= 0){
+	if (idade < 0 || idade > 100){
 		cout << "Idade incorreta, digite novamente ";
 		cin >> idade;
 	} else {
